@@ -1,0 +1,138 @@
+.headingform {
+  font-size: calc(14px + 1vw);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+  color: brown;
+  margin-bottom: 15px;
+}
+
+.field {
+  width: 16vw;
+  min-width: 125px;
+  height: 20px;
+  border-radius: 4px/4px;
+  font-size: smaller;
+  position: relative;
+  background-color: rgba(255,255,255,0.3);
+  transition: 0.3s all;
+  margin: 5px;
+  border: 2px solid black;
+}
+.ddalign {
+  margin: 5px;
+  border: 2px solid black;
+  min-width: 16vw;
+  height: 20px;
+  border-radius: 4px/4px;
+  width: 20px;
+  position: relative;
+  transition: 0.3s all;
+}
+.field:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+.formboxx {
+  width: 50%;
+  height: fit-content;
+  background-color: burlywood;
+  align-items: center;
+  display: inline-block;
+  text-align-last: center;
+  border-radius: 4px/4px;
+}
+.App {
+  text-align: center;
+  background-color: papayawhip;
+  padding: 20px;
+  margin: 20px;
+}
+.displayLink{
+  color: brown;
+  font-size: calc(13px + 1vmin);
+  overflow-wrap: anywhere;
+}
+
+.ddfield { 
+  width: 16vw;
+  font-size: 20px;
+  min-width: 125px;
+  display: inline-block;
+  border-radius: 4px/4px;
+}
+.Dropdown-control {
+  border: 2px solid black;
+  width: 16vw;
+  min-width: 125px;
+    font-size: smaller;
+  display: inline-block;
+  height: 20px;
+  border-radius: 4px/4px;
+  position: relative;
+  background-color: rgba(255,255,255,0.3);
+  margin: 5px 0px;
+}
+.myMenuClassName {
+border: 2px solid black;
+  width: 16vw;
+  min-width: 125px;
+  display: contents;
+  height: 20px;
+  border-radius: 4px/4px;
+  position: relative;
+  background-color: rgba(255,255,255,0.3);
+  margin: 5px;
+}
+.ddalignmain {
+display: inline;
+}
+.ddfielding {
+  border: 1px solid red;
+  height: 20px;
+  display: inline-flex;
+  min-width: 16vw;
+  height: 20px;
+  background-color: rgba(255,255,255,0.3);
+}
+
+.spanfield {
+  color: brown;
+  font-size: smaller;
+  margin-top: -1px;
+  margin-bottom: 1px;
+}
+
+.myPlaceholderClassName {
+  transition: 0.3s all;
+  align-items: left;
+  font-size:smaller;
+  opacity: 85%;
+  display: flex;
+}
+
+.Dropdown-option {
+  border: 1px solid rosybrown;
+  background-color: rgb(230, 102, 128);
+  z-index:1 ;
+  font-size: small;
+  min-width: 16vw;    
+  height: 20px;
+  border-radius: 4px/4px;
+  position: relative;  
+}
+
+.buttonSubmit {
+  margin: 20px;
+  font-size: calc(9px + 1vmin);
+  background-color: brown;  
+  border-radius: 5px/5px;
+  padding: 2px 30px;
+  color:white;
+}
+
+body {
+  background: linear-gradient(100deg, peachpuff, white);
+  border: 2px solid brown;
+  margin: 10% 10%;
+  border-radius: 15px/15px;
+
+}
